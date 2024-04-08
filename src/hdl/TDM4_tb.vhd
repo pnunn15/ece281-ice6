@@ -109,7 +109,7 @@ begin
 	begin
 		-- assign test values to data inputs
         w_D3 <= "1100";
-        w_D2 <= "1101";
+        w_D2 <= "1001";
         w_D1 <= "0110";
         w_D0 <= "0011";
 				
