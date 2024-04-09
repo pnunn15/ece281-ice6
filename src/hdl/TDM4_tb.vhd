@@ -70,7 +70,7 @@ architecture test_bench of TDM4_tb is
 	
 	-- Constants
 	constant k_IO_WIDTH : natural := 4;
-	constant k_clk_period : time := 20ns;
+	constant k_clk_period : time := 20 ns;
 	-- Signals
 	signal w_clk, w_reset : std_logic := '0';
 	signal w_D3, w_D2, w_D1, w_D0, f_data : std_logic_vector (k_IO_WIDTH - 1 downto 0) := "0000";
